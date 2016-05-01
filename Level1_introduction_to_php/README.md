@@ -34,6 +34,5 @@ Or use the **concatenation operator**, which glues several strings together:
 <?php
   echo "Hello," . " " . "world" . "!";
 ?>
-?>
 
 ```
