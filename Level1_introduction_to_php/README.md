@@ -93,4 +93,4 @@ Just like we sometimes put comments in our CSS `(using /* this syntax */)` or in
 ?>
 
 ```
-Output : `Bla7'
+Output : `Bla7`
