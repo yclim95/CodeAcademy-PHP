@@ -2,12 +2,13 @@
 
 ## PHP syntax 
 ### 1. Echo 
+The echo function outputs strings. If you type
+
 ```php
 
-The echo function outputs strings. If you type
 <?php
   echo "Hello!";
 ?>
-PHP will output Hello!.
 
 ```
+PHP will output Hello!.
