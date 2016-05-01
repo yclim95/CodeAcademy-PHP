@@ -65,6 +65,5 @@ To do more complex coding, we need a way to "save" these values. We can do this 
 ?>
 
 ```
-```
-All variable names in PHP start with a dollar sign <b>( $ )</b>.
-```
+
+All variable names in PHP start with a dollar sign `( $ )`.
