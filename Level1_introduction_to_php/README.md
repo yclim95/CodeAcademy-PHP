@@ -72,7 +72,7 @@ All variable names in PHP start with a dollar sign `( $ )`.
 
 Just like we sometimes put comments in our CSS `(using /* this syntax */)` or in our HTML `(using <!-- this syntax -->)`, we can also put comments in our PHP code! We do that using two forward slashes `(//)`, like so:
 
-```php
+```PHP
 
 <?php
 	echo "I get printed!";
@@ -80,3 +80,17 @@ Just like we sometimes put comments in our CSS `(using /* this syntax */)` or in
 ?>
 
 ```
+
+### 6. Echo Variable 
+
+```PHP
+
+<?php
+	$myName = "bla";
+	$myAge = 7;
+	echo $myName;
+	echo $myAge;
+?>
+
+```
+Output : `Bla7'
