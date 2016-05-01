@@ -67,3 +67,16 @@ To do more complex coding, we need a way to "save" these values. We can do this 
 ```
 
 All variable names in PHP start with a dollar sign `( $ )`.
+
+### 5. Comments 
+
+Just like we sometimes put comments in our CSS `(using /* this syntax */)` or in our HTML `(using <!-- this syntax -->)`, we can also put comments in our PHP code! We do that using two forward slashes `(//)`, like so:
+
+```php
+
+<?php
+	echo "I get printed!";
+	// I don't! I'm a comment.
+?>
+
+```
