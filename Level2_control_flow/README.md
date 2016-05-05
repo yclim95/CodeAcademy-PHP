@@ -52,3 +52,23 @@ In addition to doing something when the condition is true, we can do something e
 Just like before, if the condition is true, then only the code inside the first pair of curly braces will run. Otherwise, the condition is false, so only the code inside the second pair of curly braces after the else keyword will run.
 
 In the example above the condition $name == "Simon" evaluates to false since $name is Edgar. Since the condition is false, only the code inside the curly braces after the else keyword runs, and prints out `Who are you?`
+
+### 4. Switch Statements 
+
+A switch statement comes in handy when you have a series of `if/elseif/else` statements with multiple expressions that depend on the same value. The switch statement also provides a bit of efficiency and readability. Switches work like if statements, if a condition is true, it executes a block of code.
+
+<?php
+    switch (2) {
+        case 0:
+            echo 'The value is 0';
+            break;
+        case 1:
+            echo 'The value is 1';
+            break;
+        case 2:
+            echo 'The value is 2';
+            break;
+        default:
+            echo "The value isn't 0, 1 or 2";
+    }
+?>
