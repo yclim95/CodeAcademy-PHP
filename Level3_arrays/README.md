@@ -55,3 +55,12 @@ echo $myArray[0]
 
 2. Then we use `echo` to output the first item in $myArray. Since items are numbered starting from 0, "do" is at position 0.
 ```
+
+**Array can also be access by offset {}
+
+```php
+<?php
+$myArray = array("do", "re", "mi");
+ print $myArray{2};
+ // prints "mi";
+?>
