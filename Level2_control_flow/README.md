@@ -57,6 +57,7 @@ In the example above the condition $name == "Simon" evaluates to false since $na
 
 A switch statement comes in handy when you have a series of `if/elseif/else` statements with multiple expressions that depend on the same value. The switch statement also provides a bit of efficiency and readability. Switches work like if statements, if a condition is true, it executes a block of code.
 
+```php
 <?php
     switch (2) {
         case 0:
@@ -72,3 +73,4 @@ A switch statement comes in handy when you have a series of `if/elseif/else` sta
             echo "The value isn't 0, 1 or 2";
     }
 ?>
+```
