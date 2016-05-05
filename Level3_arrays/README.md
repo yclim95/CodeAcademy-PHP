@@ -33,10 +33,10 @@ $myArray = array("do", "re", "mi");
 ```
 Each item is numbered starting from 0, like this:
 
-+------+------+------+
+|------|------|------|
 | "do" | "re" | "mi" |
-+------+------+------+
-   0      1      2     
+|------|------|------|
+|  0   |   1  |   2  |  
 
 The item `"do"` is in position 0, the item `"re"` is in position 1, and so on.
 
