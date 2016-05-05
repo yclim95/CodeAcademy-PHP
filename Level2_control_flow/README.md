@@ -74,3 +74,32 @@ A switch statement comes in handy when you have a series of `if/elseif/else` sta
     }
 ?>
 ```
+
+**Switch Syntax**
+
+```php
+<?php
+$myNum = 2;
+
+switch ($myNum) {
+    case 1:
+        echo "1";
+        break;
+    case 2:
+        echo "2";
+        break;
+    case 3:
+        echo "3";
+        break;
+    default:
+        echo "None of the above";
+}
+?>
+```
+
+1. A switch statement is made up of the `switch` keyword, a variable to check, and a pair of curly braces `{ }`. Here we check the value of $myNum.
+
+2. Then we have a case block for each comparison. For example case 1: echo "1"; `break`; checks whether $myNum is equal to 1. If yes, it echos "1", and uses break to exit the switch statement.
+3. Otherwise, the next case block runs.
+
+4. If all cases return `false`, the `default` case gets executed.
