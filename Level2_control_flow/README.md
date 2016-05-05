@@ -103,3 +103,51 @@ switch ($myNum) {
 3. Otherwise, the next case block runs.
 
 4. If all cases return `false`, the `default` case gets executed.
+
+**Multiple Cases**
+
+Sometimes if you have a multiple `if` expression like below, you may want to shorten it! 
+
+```php
+<?php
+$myNum = 2;
+
+if ($i == 1 ||
+    $i == 2 ||
+    $i == 3) {
+ echo '$i is somewhere between 1 and 3.';
+}
+?>
+```
+With a `switch` statement, you can shorten the code and make your code more tidier. 
+
+```php
+<?php
+case 1:
+case 2:
+case 3:
+    echo '$i is somewhere between 1 and 3.';
+    break;
+
+?>
+```
+
+**Using "Endswitch" to END your Switch**
+
+2 ways of creating a switch statement
+```php
+<?php
+switch ($i) { 
+
+}
+?>
+```
+
+This can be also written in this form :
+```php
+<?php
+switch ($i):
+
+endswitch;
+?>
+```
