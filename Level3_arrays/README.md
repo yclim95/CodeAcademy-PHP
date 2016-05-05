@@ -22,7 +22,7 @@ By now, I am sure you have noticed the text inside the ( and ). This is just the
 
 You must always remember, however, that each item in an array must be separated by a comma: `,`.
 
-3. Access arrays by offsets []
+## 3. Access arrays by offsets []
 
 Each item in an array is numbered starting from 0. For example, when we create an array:
 
@@ -56,11 +56,27 @@ echo $myArray[0]
 2. Then we use `echo` to output the first item in $myArray. Since items are numbered starting from 0, "do" is at position 0.
 ```
 
-**Array can also be access by offset {}
+**Array can also be access by offset {}**
 
 ```php
 <?php
 $myArray = array("do", "re", "mi");
  print $myArray{2};
  // prints "mi";
+?>
+
+## 4. Deleting Array Elements
+
+You can remove elements using `unset` keyword
+```php
+<?php
+  $array = array("red", "blue", "green");
+  unset($array[2]);
+?>
+
+You can also delete the whole array:
+
+```php
+<?php
+  unset($array);
 ?>
