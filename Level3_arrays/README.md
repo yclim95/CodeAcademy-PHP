@@ -64,6 +64,7 @@ $myArray = array("do", "re", "mi");
  print $myArray{2};
  // prints "mi";
 ?>
+```
 
 ## 4. Deleting Array Elements
 
@@ -73,6 +74,7 @@ You can remove elements using `unset` keyword
   $array = array("red", "blue", "green");
   unset($array[2]);
 ?>
+```
 
 You can also delete the whole array:
 
@@ -80,3 +82,4 @@ You can also delete the whole array:
 <?php
   unset($array);
 ?>
+```
