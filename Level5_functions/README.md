@@ -36,3 +36,17 @@ print $partial;
 
 **NOTE:** *the second parameter (the starting character) is based on a zero-indexed array (i.e. the first character in your string is number 0, not number 1)*.
 
+
+### 3. Strtoupper()/ Strtolower()
+make your entire string *UPPERCASE* or *lowercase*.
+
+```php
+<?php
+$uppercase = strtoupper($myname);
+print $uppercase;
+// prints "DAVID"
+
+$lowercase = strtolower($uppercase);
+print $lowercase;
+// prints "david"
+?>
