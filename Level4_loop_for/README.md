@@ -44,9 +44,8 @@ E.G:
           unset($lang);
 ?>
 ```
-
-```php
 ** Output **
+```php
 1. JavaScript 
 2. HTML/CSS
 3. PHP 
