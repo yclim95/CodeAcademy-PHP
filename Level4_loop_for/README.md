@@ -44,3 +44,12 @@ E.G:
           unset($lang);
 ?>
 ```
+
+```php
+** Output **
+1. JavaScript 
+2. HTML/CSS
+3. PHP 
+4. Python 
+5. Ruby 
+```
