@@ -1,0 +1,18 @@
+#Level5_functions
+## What is functions ?
+Functions are `reusable` pieces of code that you can use throughout an application, saving you lots of copying and pasting.
+
+PHP has lots of built-in functions, and we'll learn some of them in these exercises. The first set of functions we'll learn about are string manipulation functions.
+
+## String manipulation functions 
+### 1. Strlen()
+one of the most common String functions in PHP. You pass it a string, or variable containing a string, and it returns the number of characters in that string. An example might be:
+
+```php
+<?php
+  // get the length of a string and
+  // print it to the screen
+  $length = strlen("david");
+  print $length;
+?>
+```
