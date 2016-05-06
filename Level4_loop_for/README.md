@@ -86,3 +86,30 @@ while(cond):
 endwhile;
 ?>
 ```
+
+### 3. Do-While Loop
+1. While Loop - Can byepass entirely 
+2. Do/While Loop - Will execute at `least once`
+
+```php
+<?php
+	$flipCount = 0;
+	do {
+		$flip = rand(0,1);
+		$flipCount ++;
+		if ($flip){
+			echo "<div class=\"coin\">H</div>";
+		}
+		else {
+			echo "<div class=\"coin\">T</div>";
+		}
+	} while ($flip);
+	$verb = "were";
+	$last = "flips";
+	if ($flipCount == 1) {
+		$verb = "was";
+		$last = "flip";
+	}
+	echo "<p>There {$verb} {$flipCount} {$last}!</p>";
+?>
+```
