@@ -52,3 +52,28 @@ E.G:
 4. Python 
 5. Ruby 
 ```
+
+### 3. While Loop
+In a stituation where you have no idea how many times the loop should repeat. Then use `while` loop.
+
+A `while` loop will execute as long as a certain condition is `true`. For example, the loop in the editor will simulate coin flips as long as the number of consecutive heads is less than 3.
+
+```php
+<?php
+ $headCount = 0;
+	$flipCount = 0;
+	while ($headCount < 3) {
+		$flip = rand(0,1);
+		$flipCount ++;
+		if ($flip){
+			$headCount ++;
+			echo "<div class=\"coin\">H</div>";
+		}
+		else {
+			$headCount = 0;
+			echo "<div class=\"coin\">T</div>";
+		}
+	}
+	echo "<p>It took {$flipCount} flips!</p>";
+?>
+```
