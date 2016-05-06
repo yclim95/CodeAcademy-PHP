@@ -77,3 +77,12 @@ A `while` loop will execute as long as a certain condition is `true`. For exampl
 	echo "<p>It took {$flipCount} flips!</p>";
 ?>
 ```
+
+**Using ENDwhile**
+```php
+<?php
+while(cond):
+   // looped statements go here
+endwhile;
+?>
+```
