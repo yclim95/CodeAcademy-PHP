@@ -75,3 +75,39 @@ if (strpos("david","h") === false) {
 // prints the "Sorry" message
 ?>
 ```
+
+## Maths functions 
+### 1. Round()
+This function rounds floating point numbers (numbers with decimal points in them) up or down.
+
+You can also use round() to round your number to an integer, or to round off complex floating point numbers to a specific number of decimal places. This is accomplished by passing a second, optional parameter to round(), telling it how many decimal places you want the number rounded to.
+
+Here's an example : 
+
+```php
+<?php
+// Round pi down from 3.1416...
+$round = round(M_PI);
+print $round;  // prints 3
+
+// This time, round pi to 4 places
+$round_decimal = round(M_PI, 4);
+print $round_decimal; // prints 3.1416
+?>
+```
+**NOTE**: `M_PI` is a PHP constant that is equal to pi.
+
+
+### 2. Rand()
+
+This function returns a random number between two numbers. Optionally, you can provide your `min` & `max` numbers as parameters, like this:
+
+```php
+<?php
+// prints a number between 0 and 32767
+print rand();
+
+// prints a number between 1 and 10
+print rand(1,10);
+?>
+```
