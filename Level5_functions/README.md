@@ -111,3 +111,49 @@ print rand();
 print rand(1,10);
 ?>
 ```
+
+## Array functions 
+### 1. Array_push()
+Is arguably the most common and useful function for manipulating arrays.
+
+`array_push()` takes two arguments: an array, and an element to add to the end of that array.Here's an example:
+
+```php
+<?php
+$fav_bands = array();
+array_push($fav_bands, "Maroon 5");
+array_push($fav_bands, "Bruno Mars");
+array_push($fav_bands, "Nickelback");
+array_push($fav_bands, "Katy Perry");
+array_push($fav_bands, "Macklemore");
+?>
+```
+
+###2. Count()
+Will return the `number` of elements in that array. Like this:
+
+```php
+<?php
+print count($fav_bands); // prints 5
+?>
+```
+
+###3. Sort()
+```php
+<?php
+$array = array(5, 3, 7, 1);
+sort($array);
+print join(", ", $array);
+// prints "1, 3, 5, 7"
+?>
+```
+
+PHP also has the `opposite` function: `rsort()`
+```php
+<?php
+$array = array(5, 3, 7 ,1);
+rsort($array);
+print join(":", $array);
+// prints "7:5:3:1"
+?>
+```
