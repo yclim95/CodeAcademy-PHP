@@ -50,3 +50,26 @@ $lowercase = strtolower($uppercase);
 print $lowercase;
 // prints "david"
 ?>
+
+### 4. Strpos()
+Find the position of the first occurence of a substring in a string.
+
+```php
+<?php
+strpos("emily", "e");   // 0
+strpos("emily", "i");   // 2
+strpos("emily", "ily"); // 2
+strpos("emily", "zxc"); // false
+?>
+
+The parameters passed to `strpos()` are the `haystack` and the `needle`. The function tries to find the needle in the haystack.
+
+It returns either the index of the first character, or `false` if the needle cannot be found.
+
+```php
+<?php
+if (strpos("david","h") === false) {
+  print "Sorry, no 'h' in 'david'";
+}
+// prints the "Sorry" message
+?>
