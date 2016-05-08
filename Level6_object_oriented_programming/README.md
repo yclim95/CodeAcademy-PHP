@@ -76,3 +76,49 @@ print $apple->count; // 3
 print $apple->type;  // apple
 ?>
 ```
+
+Al'right at this point you should understand what is a properties. 
+
+But now we have an issue. 
+
+`$teacher` and `$student` are the same, which should be changed immediately, correct? :
+
+*Solutions* :
+
+```php
+<?php
+public function __construct($prop1, $prop2) {
+  $this->prop1 = $prop1;
+  $this->prop2 = $prop2;
+}
+?>
+```
+**Note** : *Public keyowrd and the arrow notation*
+
+1. You're creating a function bound to a class (a **method**).
+
+2. The constructor method has to be called `__construct()`.
+
+3. Finally, the weird way to assign the values: `$this->prop1 = $prop1` means that the value you pass in the `__construct()` function via the new keyword is assigned to $this, which represents the object you are dealing with, and `->prop1` is the actual property of the object.
+
+4. By creating a `new` instance using the new keyword, you actually call this` __construct()` method, which constructs the object. And that's why we have to pass in some arguments when we create an instance of a class, since this is how the properties get set!
+
+### 3. Methods 
+
+```php
+<?php
+public function funcname($optionalParameter) {
+  // Do something
+}
+?>
+```
+
+If we want a method to return a sentence containing the firstname, we would have to use `$this->firstname`. (As you see, there is no $ when you access a property in a class.)
+
+Calling a method is similar to accessing a property, you just have to add the parentheses:
+
+```php
+<?php
+$obj1 -> meth1();
+?>
+```
