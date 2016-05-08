@@ -62,7 +62,7 @@ strpos("emily", "i");   // 2
 strpos("emily", "ily"); // 2
 strpos("emily", "zxc"); // false
 ?>
-
+```
 The parameters passed to `strpos()` are the `haystack` and the `needle`. The function tries to find the needle in the haystack.
 
 It returns either the index of the first character, or `false` if the needle cannot be found.
@@ -74,3 +74,4 @@ if (strpos("david","h") === false) {
 }
 // prints the "Sorry" message
 ?>
+```
