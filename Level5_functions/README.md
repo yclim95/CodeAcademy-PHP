@@ -50,6 +50,7 @@ $lowercase = strtolower($uppercase);
 print $lowercase;
 // prints "david"
 ?>
+```
 
 ### 4. Strpos()
 Find the position of the first occurence of a substring in a string.
