@@ -175,6 +175,56 @@ function name(parameters) {
 
 2. `name` indicates the name of a function, which is case insensitive. The name of a function can contain numbers, letters, underscores or dashes.
 
-3. The **arguments**, or *parameters*, will be the optional input a function uses to perform calculations.
+3. The **arguments**, or **parameters**, will be the optional input a function uses to perform calculations.
 
-4. And of course, the *statements* themselves will be the code the function executes when it is called.
+4. And of course, the **statements** themselves will be the code the function executes when it is called.
+
+### 1. RETURN keywords 
+
+Instead of printing something to the screen, what if you want to make it the value that the function outputs so it can be used elsewhere in your program? In PHP, the return keyword does just that. It returns to us a value that we can work with. 
+The difference between this and `echo` or `print` is that it doesn't actually display the value.
+
+Put in a simple way, just like a calculator u solve the mathematical problem $ it takes several steps to solve it. The value from is each step is computed. BUT, we dont get to see the results, until we get to see the final answer. 
+
+```php
+<?php
+ function returnName(){
+            return "lala";
+        }
+        
+        print returnName(); //Call function 
+?>
+```
+
+### 1. Parameters & Arguments 
+
+Functions is pretty useful as you have seen the syntax of functions introduced above. BUT, it won't be that useful or full utilized UNLESS you have use the **parameters** & **arguments**. 
+
+These are the variables or inputs that a function uses to perform calculations.
+
+**Sample 1:** 
+
+```php
+<?php
+function squareValue($number) {
+  echo $number * $number;
+} 
+
+$n = 6;
+squareValue($n); // echos 36
+?>
+```
+
+The function `squareValue`, above, takes one parameter, which it multiplies by itself and then echos the result. The names of the parameters themselves are used internally within the function, so they should be named something helpful.
+
+**Sample 2:** 
+
+```php
+<?php
+function greetings($name){
+  echo "Greetings, " . $name . "!";
+}
+
+greetings("George");
+?>
+```
