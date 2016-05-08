@@ -1,4 +1,4 @@
-#Level5_functions
+#Level5_functions part 1
 ## What is functions ?
 Functions are `reusable` pieces of code that you can use throughout an application, saving you lots of copying and pasting.
 
@@ -157,3 +157,24 @@ print join(":", $array);
 // prints "7:5:3:1"
 ?>
 ```
+
+#Level5_functions part 2
+## Function syntax 
+
+The typical structure of a function is as follows:
+
+```php
+<?php
+function name(parameters) {
+  statement;
+}
+?>
+```
+
+1. The `keyword` function indicates that the code following it will be a user-defined function.
+
+2. `name` indicates the name of a function, which is case insensitive. The name of a function can contain numbers, letters, underscores or dashes.
+
+3. The **arguments**, or *parameters*, will be the optional input a function uses to perform calculations.
+
+4. And of course, the *statements* themselves will be the code the function executes when it is called.
