@@ -1,4 +1,4 @@
-#Level5_functions part 1
+#Level 5 Functions Part 1
 ## What is functions ?
 Functions are `reusable` pieces of code that you can use throughout an application, saving you lots of copying and pasting.
 

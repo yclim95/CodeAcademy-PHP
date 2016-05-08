@@ -1,4 +1,4 @@
-# Level1_introduction_to_php
+# Level 1 : Introduction to PHP
 
 ## PHP syntax 
 ### 1. Echo 

@@ -1,4 +1,4 @@
-# Level3_arrays
+# Level 3 : Array
 ## 1. What is an Array ?
 
 An array is a list of items, a bit like a shopping list. It allows you to store more than one item in only one variable.

@@ -1,4 +1,4 @@
-#Level6_object_oriented_programming
+#Level 6 Object Oriented Programming (OOP)
 ## What is Object-Oriented Programming (OOP)? 
 PHP is an object-oriented programming language, which means that you can create objects, which can contain variables and functions.
 
