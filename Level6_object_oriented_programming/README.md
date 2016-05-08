@@ -50,3 +50,29 @@ Right now there is only one instance of the `Person` class: `$me`. But we'll rec
         echo $me->greet(); 
 ?>
 ```
+
+## Classes Syntax 
+### 1. Classes 
+```php
+<?php
+class Classname {
+
+}
+?>
+```
+
+### 2. Properties 
+
+```php
+<?php
+class Fruit {
+  public $count = 3;
+  public $type;
+}
+
+$apple = new Fruit();
+$apple->type = "apple";
+print $apple->count; // 3
+print $apple->type;  // apple
+?>
+```
