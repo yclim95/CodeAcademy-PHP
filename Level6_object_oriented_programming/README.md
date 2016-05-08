@@ -122,3 +122,37 @@ Calling a method is similar to accessing a property, you just have to add the pa
 $obj1 -> meth1();
 ?>
 ```
+
+## Class & Object Methods 
+### 1. Is_a() 
+Used to find out if a particular object is an **instance** of a given class
+
+```php
+<?php
+	if (is_a($me, "Person")) {
+		echo "I'm a person, ";
+	}
+?>
+```
+
+### 2. Property_exists()
+To see if an object has a given **property**
+
+```php
+<?php
+	if (property_exists($me, "name")) {
+		echo "I have a name, ";
+	}
+?>
+```
+
+### 3. Method_exists() 
+To see if an object has a given **method**
+
+```php
+<?php
+	if (method_exists($me, "dance")) {
+		echo "and I know how to dance!";
+	}
+?>
+```
