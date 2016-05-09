@@ -82,3 +82,16 @@ If we access `$deck[2]`, we would get the third row (remember, arrays start from
 That will return another array containing 2 values: the first (0) which is a string that has the value "7 of Diamonds", and the second (1) which is an integer that has the value 7.
 
 If we want the "7 of Diamonds" string, we would simply use `$deck[2][0]`;.
+
+```php
+<?php
+        $deck = array(array('2 of Diamonds', 2),
+                      array('5 of Diamonds', 5),
+                      array('7 of Diamonds', 7),
+                      array('3 of Diamonds', 3));
+        
+      // Imagine the first chosen card was the 7 of Diamonds.
+      // This is how we would show the user what they have:
+      echo 'You have the ' . $deck[2][0] . '!';
+?>
+```
