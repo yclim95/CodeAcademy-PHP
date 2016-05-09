@@ -18,3 +18,4 @@ Runs on the same computer as the website you're visiting, which is known as the 
 4. [Lesson 4 : Loops](https://github.com/yclim95/CodeAcademy-PHP/tree/master/Level4_loop_for) 
 5. [Lesson 5 : Functions](https://github.com/yclim95/CodeAcademy-PHP/tree/master/Level5_functions) 
 6. [Lesson 6 : Object Oriented Programming(OOP)](https://github.com/yclim95/CodeAcademy-PHP/tree/master/Level6_object_oriented_programming)
+7. [Lesson 7 : Advanced Array](https://github.com/yclim95/CodeAcademy-PHP/tree/master/Level7_advanced_array)
